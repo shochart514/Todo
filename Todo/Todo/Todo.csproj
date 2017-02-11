@@ -216,8 +216,6 @@
     <Compile Include="Models\TodoItemViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\ApplicationOAuthProvider.cs" />
-    <Compile Include="Repositories\ITaskRepository.cs" />
-    <Compile Include="Repositories\TaskRepository.cs" />
     <Compile Include="Results\ChallengeResult.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="UnityResolver.cs" />
@@ -242,29 +240,6 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
-    <Content Include="src\app\app.component.js" />
-    <Content Include="src\app\app.component.spec.js" />
-    <Content Include="src\app\app.module.js" />
-    <Content Include="src\app\TodoItem.js" />
-    <Content Include="src\app\todoitem.service.js" />
-    <Content Include="src\app\todoItemForm.component.html" />
-    <Content Include="src\app\todoItemForm.js" />
-    <Content Include="src\css\bootstrap-theme.css" />
-    <Content Include="src\css\bootstrap-theme.min.css" />
-    <Content Include="src\css\bootstrap.css" />
-    <Content Include="src\css\bootstrap.min.css" />
-    <Content Include="src\css\main.css" />
-    <Content Include="src\favicon.ico" />
-    <Content Include="src\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="src\img\calendar-icon.svg" />
-    <Content Include="src\index.html" />
-    <Content Include="src\js\bootstrap.js" />
-    <Content Include="src\js\bootstrap.min.js" />
-    <Content Include="src\js\npm.js" />
-    <Content Include="src\main.js" />
-    <Content Include="src\styles.css" />
-    <Content Include="src\systemjs.config.extras.js" />
-    <Content Include="src\systemjs.config.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -279,22 +254,6 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="src\app\app.component.js.map" />
-    <Content Include="src\app\app.component.spec.js.map" />
-    <Content Include="src\app\app.module.js.map" />
-    <Content Include="src\app\TodoItem.js.map" />
-    <Content Include="src\app\todoitem.service.js.map" />
-    <Content Include="src\app\todoItemForm.js.map" />
-    <Content Include="src\css\bootstrap-theme.css.map" />
-    <Content Include="src\css\bootstrap-theme.min.css.map" />
-    <Content Include="src\css\bootstrap.css.map" />
-    <Content Include="src\css\bootstrap.min.css.map" />
-    <Content Include="src\fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="src\fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="src\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="src\fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="src\main.js.map" />
-    <Content Include="src\tsconfig.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -312,15 +271,6 @@
       <Project>{420292c3-d7e8-475b-acf2-52fe73fbd2a6}</Project>
       <Name>Todo.Data</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <TypeScriptCompile Include="src\app\app.component.spec.ts" />
-    <TypeScriptCompile Include="src\app\app.component.ts" />
-    <TypeScriptCompile Include="src\app\app.module.ts" />
-    <TypeScriptCompile Include="src\app\todoitem.service.ts" />
-    <TypeScriptCompile Include="src\app\TodoItem.ts" />
-    <TypeScriptCompile Include="src\app\todoItemForm.ts" />
-    <TypeScriptCompile Include="src\main.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />

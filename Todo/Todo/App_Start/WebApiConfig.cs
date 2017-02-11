@@ -7,7 +7,7 @@ using System.Web.Http;
 using Microsoft.Owin.Security.OAuth;
 using Microsoft.Practices.Unity;
 using Newtonsoft.Json.Serialization;
-using Todo.Repositories;
+using Todo.Data.Repositories;
 
 namespace Todo
 {

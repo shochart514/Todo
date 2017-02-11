@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using Todo.Entities;
 
-namespace Todo.Repositories
+namespace Todo.Data.Repositories
 {
     public interface ITaskRepository
     {

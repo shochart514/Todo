@@ -6,7 +6,7 @@ using System.Web.Http;
 using System.Web.Http.Cors;
 using Todo.Entities;
 using Todo.Models;
-using Todo.Repositories;
+using Todo.Data.Repositories;
 
 namespace Todo.Controllers
 {
