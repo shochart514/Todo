@@ -1,0 +1,10 @@
+C:\repos\Todo\Todo\Todo.Data\bin\Debug\Todo.Data.dll.config
+C:\repos\Todo\Todo\Todo.Data\bin\Debug\Todo.Data.dll
+C:\repos\Todo\Todo\Todo.Data\bin\Debug\Todo.Data.pdb
+C:\repos\Todo\Todo\Todo.Data\bin\Debug\EntityFramework.dll
+C:\repos\Todo\Todo\Todo.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\repos\Todo\Todo\Todo.Data\bin\Debug\EntityFramework.xml
+C:\repos\Todo\Todo\Todo.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\repos\Todo\Todo\Todo.Data\obj\Debug\Todo.Data.csprojResolveAssemblyReference.cache
+C:\repos\Todo\Todo\Todo.Data\obj\Debug\Todo.Data.dll
+C:\repos\Todo\Todo\Todo.Data\obj\Debug\Todo.Data.pdb

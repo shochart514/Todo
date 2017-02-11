@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-Todo-20170210023917.mdf;Initial Catalog=aspnet-Todo-20170210023917;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\repos\\Todo\\Todo\\Todo\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="Todo.Data.Contexts.TaskContext-Web.config Connection String" description="Todo.Data.Contexts.TaskContext Connection String used in web.config by the application to access the database." defaultValue="Todo.Data.Contexts.TaskContext_ConnectionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\repos\\Todo\\Todo\\Todo\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Todo.Data.Contexts.TaskContext']/@connectionString" />
+  </parameter>
+</parameters>
